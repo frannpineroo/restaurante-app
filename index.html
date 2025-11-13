@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante - QuieroMas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Restaurante FastFood</h1>
+            <p>Sistema de gestión de ventas</p>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <h2>Registro de Ventas</h2>
+
+                <div class="menu-item">
+                    <label>Hamburguesa</label>
+                    <span class="price">$2.50</span>
+                    <input type="number" id="hamburguesa" min="0" value="0">
+                </div>
+
+                <div class="menu-item">
+                    <label>Cerveza</label>
+                    <span class="price">$4.00</span>
+                    <input type="number" id="cerveza" min="0" value="0">
+                </div>
+
+                <div class="menu-item">
+                    <label>Gaseosa</label>
+                    <span class="price">$3.00</span>
+                    <input type="number" id="gaseosa" min="0" value="0">
+                </div>
+
+                <div class="menu-item">
+                    <label>Ensalada</label>
+                    <span class="price">$1.50</span>
+                    <input type="number" id="ensalada" min="0" value="0">
+                </div>
+
+                <div class="menu-item">
+                    <label>Salchichas</label>
+                    <span class="price">$2.00</span>
+                    <input type="number" id="salchichas" min="0" value="0">
+                </div>
+
+                <div class="menu-item">
+                    <label>Refresco</label>
+                    <span class="price">$1.00</span>
+                    <input type="number" id="refresco" min="0" value="0">
+                </div>
+
+                <div class="menu-item">
+                    <label>Sopa</label>
+                    <span class="price">$1.50</span>
+                    <input type="number" id="sopa" min="0" value="0">
+                </div>
+
+                <div class="menu-item">
+                    <label>Postre</label>
+                    <span class="price">$1.50</span>
+                    <input type="number" id="postre" min="0" value="0">
+                </div>
+
+                <div class="buttons">
+                    <button class="btn-calculate" onclick="calcular()">Calcular</button>
+                    <button class="btn-clear" onclick="limpiar()">Limpiar</button>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Resumen de Ventas</h2>
+
+                <div class="menu-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Menu</th>
+                                <th>Cantidad</th>
+                                <th>Precio</th>
+                            </tr>
+                        </thead>
+                        <tbody id="resumenTable">
+                            <tr>
+                                <td>Ingrese cantidades y presione Calcular</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="totals">
+                    <div class="total-row">
+                        <span class="label">Subtotal:</span>
+                        <span class="value" id="subtotal">$0.00</span>
+                    </div>
+                    <div class="total-row">
+                        <span class="label">Impuesto:</span>
+                        <span class="value" id="impuesto">$0.00</span>
+                    </div>
+                    <div class="total-row">
+                        <span class="label">TOTAL A PAGAR:</span>
+                        <span class="value" id="total">$0.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
