@@ -56,7 +56,7 @@ function limpiar() {
     for (let item in menu) {
         document.getElementById(item).value = 0;
     }
-    document.getElementById('resumenTabla').innerHTML = '<tr><td>Ingrese cantidades y presione Calcular</td></tr>';
+    document.getElementById('resumenTable').innerHTML = '<tr><td>Ingrese cantidades y presione Calcular</td></tr>';
     document.getElementById('subtotal').textContent = '$ 0.00';
     document.getElementById('impuesto').textContent = '$ 0.00';
     document.getElementById('total').textContent = '$ 0.00';
