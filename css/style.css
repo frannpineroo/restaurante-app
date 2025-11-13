@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #FAEBD7 0%, #FAEBD7 100%);
     min-height: 100vh;
     padding: 20px;
     display: flex;
@@ -24,7 +24,7 @@ body {
 }
 
 .header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #8B0000 0%, #8B0000 100%);
     color: white;
     padding: 30px;
     text-align: center;
@@ -54,7 +54,7 @@ body {
 }
 
 .section h2 {
-    color: #667eea;
+    color: #8B0000;
     margin-bottom: 20px;
     font-size: 1.5em;
     display: flex;
@@ -76,7 +76,6 @@ body {
 }
 
 .menu-item .price {
-    color: #28a745;
     font-weight: bold;
 }
 
@@ -91,7 +90,7 @@ body {
 
 .menu-item input:focus {
     outline: none;
-    border-color: #667eea;
+    border-color: #8B0000;
     box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
 }
 
@@ -108,7 +107,7 @@ body {
 }
 
 .menu-table th {
-    background: #667eea;
+    background: #8B0000;
     color: white;
     padding: 12px;
     text-align: left;
@@ -141,10 +140,10 @@ body {
     border-bottom: none;
     font-size: 1.3em;
     font-weight: bold;
-    color: #667eea;
+    color: #8B0000;
     margin-top: 10px;
     padding-top: 20px;
-    border-top: 3px solid #667eea;
+    border-top: 3px solid #8B0000;
 }
 
 .total-row .label {
@@ -152,7 +151,6 @@ body {
 }
 
 .total-row .value {
-    color: #28a745;
     font-weight: bold;
 }
 
